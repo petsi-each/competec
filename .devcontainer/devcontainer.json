@@ -1,5 +1,15 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"redhat.java",
+			"vscjava.vscode-java-debug",
+			"vscjava.vscode-java-dependency",
+			"VisualStudioExptTeam.vscodeintellicode"
+		]
+	}
+}
 }
