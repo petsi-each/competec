@@ -1,15 +1,12 @@
 {
 	"name": "Java",
-	"image": "mcr.microsoft.com/devcontainers/java:1-${templateOption:imageVariant}",
+	"image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
 			"version": "none",
-			"installMaven": "${templateOption:installMaven}",
-			"installGradle": "${templateOption:installGradle}"
+			"installMaven": "false",
+			"installGradle": "false"
 		}
 	}
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "java -version",
 }
