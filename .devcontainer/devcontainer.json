@@ -9,4 +9,6 @@
 			"installGradle": "false"
 		}
 	}
+
+	"postCreateCommand": "java -version",
 }
