@@ -8,7 +8,7 @@
 			"installMaven": "false",
 			"installGradle": "false"
 		}
-	}
+	},
 
-	"postCreateCommand": "java -version",
+	"postCreateCommand": "java -version"
 }
