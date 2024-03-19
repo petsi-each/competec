@@ -6,7 +6,7 @@
  * Extra:
  * [] faça o programa receber o nome como entrada
  * [] permita que o usuário insira seu nome completo,mas exiba apenas o primeiro nome
- * dica: descubra a diferença entre next() e nextline()
+ * dica: descubra a diferença entre os métodos next() e nextLine() da classe Scanner
  */
 
 public class Exercicio1 {
