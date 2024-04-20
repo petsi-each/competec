@@ -6,7 +6,14 @@
 
 public class Exercicio2 {
     public static void main(String[] args) {
-        // Escreva seu código aqui ⬇️
+        double valorDaLaranja = 2.50;
+        double valorDaUva = 1.50;
+        double soma;
+        soma = valorDaLaranja + valorDaUva;
+        System.out.println("O preço da laranja e da uva é igual à: " + "R$" + soma);
+
+
+
 
         
     }
