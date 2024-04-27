@@ -7,7 +7,7 @@ public class Exercicio4 {
         double numero;
         Scanner leia = new Scanner(System.in);
         
-        System.out.println("digite um número");
+        System.out.println("digite um número: ");
         numero = leia.nextDouble();
 
         if (numero % 5 == 0 || numero % 3 == 0) {

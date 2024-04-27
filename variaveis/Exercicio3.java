@@ -9,15 +9,15 @@ public class Exercicio3 {
 
         Scanner leia = new Scanner(System.in);
         
-        System.out.println("digite a idade do aluno");
+        System.out.println("digite a idade do aluno: ");
         idade1 = leia.nextInt();
-        System.out.println("digite a idade do professor");
+        System.out.println("digite a idade do professor: ");
         idade2 = leia.nextInt();
 
         if(idade1>idade2) {
             alunoMaior = true;
             System.out.println(alunoMaior);
-            System.out.println(" aluno é mais velho que o professor");
+            System.out.println("aluno é mais velho que o professor");
         }
         else if (idade1<idade2) {
             alunoMaior = false;
