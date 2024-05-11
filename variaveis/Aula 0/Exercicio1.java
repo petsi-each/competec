@@ -10,6 +10,8 @@ public class Exercicio1 {
         int idade = 19;
         boolean refeicao = true;
 
+        // Escreva seu código aqui ⬇️
+
 
     }
 }
